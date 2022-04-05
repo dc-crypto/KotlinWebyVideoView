@@ -36,6 +36,8 @@ class MainActivity : AppCompatActivity() {
         myVideoView.setMediaController(mediaController)
         mediaController.setAnchorView(myVideoView)
 
+        //video y web view
+
         //metodo para que comience el video
         myVideoView.setOnPreparedListener{
             myVideoView.start()
